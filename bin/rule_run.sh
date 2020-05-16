@@ -12,7 +12,7 @@ echo "Input hashed password file path to crack:"
 
 echo $(ls)
 
-read prompt
+read input_file
 echo $input_file
 
 if [ -e $input_file ];
