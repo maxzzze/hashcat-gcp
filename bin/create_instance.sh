@@ -26,7 +26,7 @@ if [ "$prompt" == "y" ]
                 --machine-type $MACHINE_TYPE \
                 --zone europe-west1-b \
                 --accelerator type=$GPU_TYPE,count=$GPU_COUNT \
-                --image-family ubuntu-1604-lts \
+                --image-family ubuntu-2004-lts \
                 --image-project ubuntu-os-cloud \
                 --maintenance-policy TERMINATE \
                 --restart-on-failure
